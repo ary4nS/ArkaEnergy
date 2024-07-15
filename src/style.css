@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+#buttons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    
+  }
+  button {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+#completeButton {
+    top: 10px;
+    left: 10px;
+}
+
+#copyButton {
+    top: 50px;
+    left: 10px;
+}
+
+#resetButton {
+    top: 90px;
+    left: 10px;
+}
+  
